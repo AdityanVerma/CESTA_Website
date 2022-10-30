@@ -412,6 +412,39 @@ html{
     background-color: rgba(1, 136 ,169, 0.8);
 }
 
+@media only screen and (max-width: 850px){
+.members-list .card{
+    width: 250px;
+    height: 330px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.members-list{
+    margin-top: 30px;
+}
+
+.members-list-2{
+    margin-top: 30px;
+}
+.card .image{
+    width: 150px;
+    height: 150px;}   
+}
+.members{
+    font-size: 10px;
+}
+
+.members-list-2 .card{
+    width: 250px;
+    height: 330px;
+    margin-top: 10px;
+}
+.members-list-2 .card .image{
+    width: 150px;
+    height: 150px;
+}
+
 /* ---------------> FOOTER <--------------- */
 
 footer {
