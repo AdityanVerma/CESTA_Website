@@ -222,6 +222,24 @@ header {
     background-color: #00bcd146;
 }
 
+@media(max-width:940px){
+    .contact{
+        padding: 50px;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+
+    .container .contactInfo{
+        margin-bottom: 40px;
+    }
+
+    .container .contactInfo,.contactForm{
+        width: 100%;
+    }
+}
+
 /* ---------------> FOOTER <--------------- */
 
 footer {
